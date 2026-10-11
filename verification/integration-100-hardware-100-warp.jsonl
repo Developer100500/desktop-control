@@ -1,0 +1,23 @@
+{"detail":{"active":true,"detail":"","error":"","indicator_failed":false,"indicator_ready":true,"language":"en","paused":false,"phase":"waiting_ai","task_id":"{9898EEC6-ED73-4328-8658-5F50C0097418}","task_title":"Desktop Control integration verification"},"test":"indicator_ready"}
+{"detail":{"elements":12,"geometry":{"height":503,"width":536,"x":107,"y":150},"image":{"backend":"hardware","height":503,"mime_type":"image/png","timings_ms":{"conversion":8.2231,"encoding":13.3251,"frame":108.8009},"width":536}},"test":"capture_and_uia"}
+{"detail":{},"test":"uia_unicode_set_value"}
+{"detail":{},"test":"stale_observation_rejected"}
+{"detail":{"actual":"Привет, Windows! Unicode: 😀","expected":"Привет, Windows! Unicode: 😀"},"test":"unicode_input_actual"}
+{"detail":{},"test":"unicode_input"}
+{"detail":{},"test":"explicit_thinking"}
+{"detail":{},"test":"explicit_screenshot_analysis"}
+{"detail":{},"test":"uia_invoke"}
+{"detail":{"backend":"hardware","count":1},"test":"capture_progress"}
+{"detail":{"backend":"hardware","count":21},"test":"capture_progress"}
+{"detail":{"backend":"hardware","count":41},"test":"capture_progress"}
+{"detail":{"backend":"hardware","count":61},"test":"capture_progress"}
+{"detail":{"backend":"hardware","count":81},"test":"capture_progress"}
+{"detail":{"backend":"hardware","count":100,"elapsed_ms":10572.2808},"test":"capture_series"}
+{"detail":{"backend":"warp","count":1},"test":"capture_progress"}
+{"detail":{"backend":"warp","count":21},"test":"capture_progress"}
+{"detail":{"backend":"warp","count":41},"test":"capture_progress"}
+{"detail":{"backend":"warp","count":61},"test":"capture_progress"}
+{"detail":{"backend":"warp","count":81},"test":"capture_progress"}
+{"detail":{"backend":"warp","count":100,"elapsed_ms":6704.8452},"test":"capture_series"}
+{"detail":{"error":{"code":"CANCELLED","elapsed_ms":216.1224,"hresult":0,"message":"Drag cancelled","stage":"drag"},"outcome":"unknown"},"test":"stop_during_drag"}
+{"detail":{},"test":"PASS"}

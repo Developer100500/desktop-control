@@ -1,0 +1,6 @@
+{"detail":{"granted":false},"test":"foreground_permission"}
+{"detail":{"active":true,"detail":"","error":"","indicator_failed":false,"indicator_ready":true,"language":"ru","overlays":{"blue_strip_count":4,"capture_excluded":true,"panel":{"height":126,"width":640,"x":640,"y":8},"screens":[{"height":1080,"width":1920,"x":0,"y":0}],"yellow_strip_count":0},"paused":false,"phase":"waiting_ai","target_created":0,"target_pid":0,"task_id":"{1DE923F6-73FC-4BA0-8500-66EDF7C8AD24}","task_title":"Desktop Control integration verification"},"test":"indicator_ready"}
+{"detail":{"outcome":"delivered","pid":14216,"windows":[{"application_pid":14216,"aumid":"64360VelerSoftware.DevToys_j80j2txgjg9dj!App","dpi":96,"elevated":false,"geometry":{"height":934,"width":1202,"x":47,"y":32},"host_pid":13828,"minimized":false,"pid":13828,"process_path":"C:\\Windows\\System32\\ApplicationFrameHost.exe","title":"DevToys","visible":true,"window_id":"{3838B4EE-C094-450A-8E30-FDC1D854B50D}"}]},"test":"application_launched"}
+{"detail":{},"test":"uwp_unicode_set_value_readback"}
+{"detail":{},"test":"uwp_launch_capture_uia"}
+{"detail":{},"test":"PASS"}

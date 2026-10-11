@@ -1,0 +1,20 @@
+{"detail":{"granted":false},"test":"foreground_permission"}
+{"detail":{"active":true,"detail":"","error":"","indicator_failed":false,"indicator_ready":true,"language":"ru","overlays":{"blue_strip_count":4,"capture_excluded":true,"panel":{"height":126,"width":640,"x":640,"y":8},"screens":[{"height":1080,"width":1920,"x":0,"y":0}],"yellow_strip_count":0},"paused":false,"phase":"waiting_ai","target_created":0,"target_pid":0,"task_id":"{A0F79DAC-5C65-4C1E-A771-5840D0E782AB}","task_title":"Desktop Control integration verification"},"test":"indicator_ready"}
+{"detail":{"elements":12,"geometry":{"height":503,"width":536,"x":107,"y":150},"image":{"backend":"hardware","height":503,"mime_type":"image/png","timings_ms":{"conversion":8.3017,"encoding":13.8676,"frame":83.1707},"width":536}},"test":"capture_and_uia"}
+{"detail":{},"test":"uia_unicode_set_value"}
+{"detail":{},"test":"stale_observation_rejected"}
+{"detail":{"actual":"Привет, Windows! Unicode: 😀","expected":"Привет, Windows! Unicode: 😀"},"test":"unicode_input_actual"}
+{"detail":{},"test":"unicode_input"}
+{"detail":{},"test":"explicit_thinking"}
+{"detail":{},"test":"explicit_screenshot_analysis"}
+{"detail":{},"test":"uia_invoke"}
+{"detail":{"geometry":{"height":563,"width":666,"x":307,"y":200},"transform":{"offset_x":307,"offset_y":200,"scale_x":1,"scale_y":1,"units":"physical_pixels"}},"test":"move_resize_geometry"}
+{"detail":{},"test":"minimize_restore"}
+{"detail":{"backend":"hardware","count":1},"test":"capture_progress"}
+{"detail":{"backend":"hardware","count":2,"elapsed_ms":204.7466},"test":"capture_series"}
+{"detail":{"backend":"warp","count":1},"test":"capture_progress"}
+{"detail":{"backend":"warp","count":2,"elapsed_ms":155.1053},"test":"capture_series"}
+{"detail":{"error":{"code":"CANCELLED","elapsed_ms":216.2035,"hresult":0,"message":"Drag cancelled","stage":"drag"},"outcome":"unknown"},"test":"stop_during_drag"}
+{"detail":{},"test":"local_stop_button"}
+{"detail":{},"test":"synthetic_escape_does_not_stop"}
+{"detail":{},"test":"PASS"}

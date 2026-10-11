@@ -1,0 +1,52 @@
+#pragma once
+#include <map>
+#include <string>
+#include <utility>
+namespace dc::resources
+{
+inline const std::map<std::string, std::pair<std::string, std::string>> strings = {
+    {"running", {"AI agent is running your computer", "ИИ-агент управляет вашим компьютером"}},
+    {"paused_header", {"AI agent is paused", "ИИ-агент приостановлен"}},
+    {"preparing", {"Preparing computer control", "Подготовка управления"}},
+    {"waiting_frame", {"Waiting for a window frame from Windows", "Ожидание кадра окна от Windows"}},
+    {"converting", {"Preparing screenshot", "Подготовка скриншота"}},
+    {"encoding", {"Encoding screenshot", "Кодирование скриншота"}},
+    {"reading_uia", {"Reading interface elements", "Чтение элементов интерфейса"}},
+    {"waiting_ai", {"Waiting for the AI client", "Ожидание AI-клиента"}},
+    {"waiting_foreground", {"Waiting for foreground permission — click Grant foreground", "Ожидание передачи фокуса — нажмите «Передать управление»"}},
+    {"foreground_title", {"Desktop Control — foreground permission", "Desktop Control — передача фокуса"}},
+    {"foreground_request", {"Allow the agent to activate the selected window.", "Разрешите агенту активировать выбранное окно."}},
+    {"foreground_hint", {"Click the button. Escape stops computer control.", "Нажмите кнопку. Escape отменяет управление."}},
+    {"foreground_grant", {"Grant foreground", "Передать управление"}},
+    {"cancel", {"Cancel", "Отмена"}},
+    {"session_title", {"Desktop Control — allow this session", "Desktop Control — разрешение на сеанс"}},
+    {"session_request", {"Allow screenshots, mouse and keyboard control.", "Разрешить снимки экрана, мышь и клавиатуру."}},
+    {"session_hint", {"Until this connection closes. Escape / Stop pauses control.", "До закрытия соединения. Escape / Stop приостанавливает."}},
+    {"session_grant", {"Allow this session", "Разрешить на сеанс"}},
+    {"waiting_consent", {"Waiting for session permission", "Ожидание разрешения на сеанс"}},
+    {"thinking", {"Agent is thinking", "Агент думает"}},
+    {"processing_screenshot", {"Analyzing screenshot", "Анализ скриншота"}},
+    {"verifying", {"Checking the action result", "Проверка результата действия"}},
+    {"click", {"Clicking", "Нажимает кнопку мыши"}},
+    {"scroll", {"Scrolling", "Прокручивает окно"}},
+    {"drag", {"Dragging the mouse", "Перетаскивает мышь"}},
+    {"press_key", {"Pressing keys", "Нажимает клавиши"}},
+    {"type_text", {"Typing text", "Вводит текст"}},
+    {"element_action", {"Using interface control", "Выполняет действие интерфейса"}},
+    {"action_invoke", {"Pressing control", "Нажимает"}},
+    {"action_set_value", {"Entering a value", "Вводит значение"}},
+    {"action_toggle", {"Toggling control", "Переключает"}},
+    {"action_select", {"Selecting item", "Выбирает"}},
+    {"action_expand", {"Expanding item", "Раскрывает"}},
+    {"action_collapse", {"Collapsing item", "Сворачивает"}},
+    {"action_scroll", {"Scrolling control", "Прокручивает"}},
+    {"launch_app", {"Launching application", "Запускает приложение"}},
+    {"close_window", {"Closing window", "Закрывает окно"}},
+    {"activate_window", {"Activating window", "Активирует окно"}},
+    {"paused", {"Control is paused", "Управление приостановлено"}},
+    {"completed", {"Task completed", "Задача завершена"}},
+    {"disconnected", {"AI client disconnected", "AI-клиент отключён"}},
+    {"error", {"Operation failed", "Ошибка операции"}},
+    {"stop", {"Stop", "Остановить"}},
+    {"target_unavailable", {"Target window is unavailable", "Целевое окно недоступно"}}};
+}

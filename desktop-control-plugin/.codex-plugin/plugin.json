@@ -1,0 +1,32 @@
+{
+  "name": "desktop-control",
+  "version": "0.1.0",
+  "description": "Control Windows desktop applications through the existing local Desktop Control MCP server.",
+  "author": {
+    "name": "admin"
+  },
+  "keywords": [
+    "windows",
+    "desktop-control",
+    "computer-use",
+    "mcp",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Desktop Control",
+    "shortDescription": "Управление Windows",
+    "longDescription": "Прямое управление приложениями Windows через локальный MCP-сервер Desktop Control: наблюдение окна, снимки экрана, элементы интерфейса, мышь и клавиатура. Использует сервер в папке Documents\\Codex текущего пользователя.",
+    "developerName": "admin",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": "Помоги выполнить задачу в приложении Windows с помощью Desktop Control."
+  }
+}

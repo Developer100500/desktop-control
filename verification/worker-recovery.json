@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "workers": [
+    {
+      "elapsed_ms": 293.616,
+      "recovered": true,
+      "timeout": true
+    },
+    {
+      "elapsed_ms": 306.8039,
+      "recovered": true,
+      "timeout": true
+    },
+    {
+      "elapsed_ms": 294.3917,
+      "recovered": true,
+      "timeout": true
+    }
+  ]
+}

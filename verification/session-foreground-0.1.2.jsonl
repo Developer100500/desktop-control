@@ -1,0 +1,14 @@
+{"detail":{"granted":false},"test":"foreground_permission"}
+{"detail":{"count":1,"source":"synthetic_fixture_confirmation"},"test":"session_consent_test"}
+{"detail":{"active":true,"detail":"","error":"","indicator_failed":false,"indicator_ready":true,"language":"ru","overlays":{"blue_strip_count":4,"capture_excluded":true,"panel":{"height":126,"width":640,"x":640,"y":8},"screens":[{"height":1080,"width":1920,"x":0,"y":0}],"yellow_strip_count":0},"paused":false,"phase":"waiting_ai","session_authorized":true,"session_consent_requested":true,"target_created":0,"target_pid":0,"task_id":"{242CF9D2-4514-42E4-A518-FB86A2448401}","task_title":"Desktop Control integration verification"},"test":"indicator_ready"}
+{"detail":{"count":3,"foreground_pid":3740,"test_host_pid":3740,"win32_error":0},"test":"test_click_delivery"}
+{"detail":{"error":{"code":"FOCUS_DENIED","elapsed_ms":336.7106,"hresult":0,"message":"Windows denied native activation; enable cursor_fallback","stage":"focus"},"foreground_permission":{"foreground_pid":3740,"helper_available":true,"method":"AllowSetForegroundWindow","prompt_timeout_ms":15000,"server_pid":10484,"server_process_created":"134360373377520348"},"outcome":"rejected"},"test":"foreground_native_denial"}
+{"detail":{"consent_count":1,"method":"title_bar_click"},"test":"cursor_focus_fallback"}
+{"detail":{"count":3,"foreground_pid":3740,"test_host_pid":3740,"win32_error":0},"test":"test_click_delivery"}
+{"detail":{"consent_count":1},"test":"focus_only_before_input"}
+{"detail":{"value":"Foreground handoff: Привет! 😀"},"test":"foreground_input_verified"}
+{"detail":{"count":1},"test":"session_permission_reused"}
+{"detail":{"granted":false},"test":"foreground_permission"}
+{"detail":{"count":1,"source":"synthetic_fixture_confirmation"},"test":"session_consent_test"}
+{"detail":{"count":1},"test":"session_permission_denial"}
+{"detail":{},"test":"PASS"}

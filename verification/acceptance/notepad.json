@@ -1,0 +1,487 @@
+{
+  "accessibility": {
+    "elements": [
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 759,
+          "width": 1378,
+          "x": 383,
+          "y": 219
+        },
+        "control_type": 50032,
+        "depth": 0,
+        "element_id": "element-0",
+        "enabled": true,
+        "focused": false,
+        "name": "*Untitled - Notepad",
+        "parent_id": "",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "15",
+        "bounds": {
+          "height": 677,
+          "width": 1362,
+          "x": 391,
+          "y": 270
+        },
+        "control_type": 50004,
+        "depth": 1,
+        "element_id": "element-1",
+        "enabled": true,
+        "focused": true,
+        "name": "Text Editor",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": [
+          "value",
+          "scroll"
+        ],
+        "value": "Desktop Control: Привет, Windows! 😀"
+      },
+      {
+        "automation_id": "1025",
+        "bounds": {
+          "height": 23,
+          "width": 1362,
+          "x": 391,
+          "y": 947
+        },
+        "control_type": 50017,
+        "depth": 1,
+        "element_id": "element-2",
+        "enabled": true,
+        "focused": false,
+        "name": "Status Bar",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 1346,
+          "x": 407,
+          "y": 222
+        },
+        "control_type": 50037,
+        "depth": 1,
+        "element_id": "element-3",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "*Untitled - Notepad"
+      },
+      {
+        "automation_id": "MenuBar",
+        "bounds": {
+          "height": 19,
+          "width": 1362,
+          "x": 391,
+          "y": 250
+        },
+        "control_type": 50010,
+        "depth": 1,
+        "element_id": "element-4",
+        "enabled": true,
+        "focused": false,
+        "name": "Application",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "NonClientVerticalScrollBar",
+        "bounds": {
+          "height": 677,
+          "width": 17,
+          "x": 1736,
+          "y": 270
+        },
+        "control_type": 50014,
+        "depth": 2,
+        "element_id": "element-5",
+        "enabled": false,
+        "focused": false,
+        "name": "Vertical",
+        "parent_id": "element-1",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 21,
+          "width": 932,
+          "x": 391,
+          "y": 949
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-6",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-2",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 21,
+          "width": 138,
+          "x": 1325,
+          "y": 949
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-7",
+        "enabled": true,
+        "focused": false,
+        "name": "  Ln 1, Col 37",
+        "parent_id": "element-2",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 21,
+          "width": 48,
+          "x": 1465,
+          "y": 949
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-8",
+        "enabled": true,
+        "focused": false,
+        "name": " 100%",
+        "parent_id": "element-2",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 21,
+          "width": 118,
+          "x": 1515,
+          "y": 949
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-9",
+        "enabled": true,
+        "focused": false,
+        "name": " Windows (CRLF)",
+        "parent_id": "element-2",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 21,
+          "width": 102,
+          "x": 1635,
+          "y": 949
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-10",
+        "enabled": true,
+        "focused": false,
+        "name": " UTF-8",
+        "parent_id": "element-2",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "MenuBar",
+        "bounds": {
+          "height": 22,
+          "width": 22,
+          "x": 391,
+          "y": 227
+        },
+        "control_type": 50010,
+        "depth": 2,
+        "element_id": "element-11",
+        "enabled": true,
+        "focused": false,
+        "name": "System",
+        "parent_id": "element-3",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 30,
+          "width": 47,
+          "x": 1614,
+          "y": 220
+        },
+        "control_type": 50000,
+        "depth": 2,
+        "element_id": "element-12",
+        "enabled": true,
+        "focused": false,
+        "name": "Minimize",
+        "parent_id": "element-3",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 30,
+          "width": 46,
+          "x": 1661,
+          "y": 220
+        },
+        "control_type": 50000,
+        "depth": 2,
+        "element_id": "element-13",
+        "enabled": true,
+        "focused": false,
+        "name": "Maximize",
+        "parent_id": "element-3",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 30,
+          "width": 47,
+          "x": 1707,
+          "y": 220
+        },
+        "control_type": 50000,
+        "depth": 2,
+        "element_id": "element-14",
+        "enabled": true,
+        "focused": false,
+        "name": "Close",
+        "parent_id": "element-3",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 32,
+          "x": 391,
+          "y": 250
+        },
+        "control_type": 50011,
+        "depth": 2,
+        "element_id": "element-15",
+        "enabled": true,
+        "focused": false,
+        "name": "File",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 34,
+          "x": 423,
+          "y": 250
+        },
+        "control_type": 50011,
+        "depth": 2,
+        "element_id": "element-16",
+        "enabled": true,
+        "focused": false,
+        "name": "Edit",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 52,
+          "x": 457,
+          "y": 250
+        },
+        "control_type": 50011,
+        "depth": 2,
+        "element_id": "element-17",
+        "enabled": true,
+        "focused": false,
+        "name": "Format",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 39,
+          "x": 509,
+          "y": 250
+        },
+        "control_type": 50011,
+        "depth": 2,
+        "element_id": "element-18",
+        "enabled": true,
+        "focused": false,
+        "name": "View",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 39,
+          "x": 548,
+          "y": 250
+        },
+        "control_type": 50011,
+        "depth": 2,
+        "element_id": "element-19",
+        "enabled": true,
+        "focused": false,
+        "name": "Help",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "UpButton",
+        "bounds": {
+          "height": 17,
+          "width": 17,
+          "x": 1736,
+          "y": 270
+        },
+        "control_type": 50000,
+        "depth": 3,
+        "element_id": "element-20",
+        "enabled": false,
+        "focused": false,
+        "name": "Line up",
+        "parent_id": "element-5",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "DownButton",
+        "bounds": {
+          "height": 17,
+          "width": 17,
+          "x": 1736,
+          "y": 930
+        },
+        "control_type": 50000,
+        "depth": 3,
+        "element_id": "element-21",
+        "enabled": false,
+        "focused": false,
+        "name": "Line down",
+        "parent_id": "element-5",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 22,
+          "x": 391,
+          "y": 227
+        },
+        "control_type": 50011,
+        "depth": 3,
+        "element_id": "element-22",
+        "enabled": true,
+        "focused": false,
+        "name": "System",
+        "parent_id": "element-11",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      }
+    ],
+    "observation_id": "{27890A98-3C30-44CD-807A-E73D08E0803F}",
+    "truncated": false
+  },
+  "blocked_regions": [
+    {
+      "height": 126,
+      "width": 640,
+      "x": 640,
+      "y": 8
+    }
+  ],
+  "coordinate_mapping_valid": true,
+  "dpi": 96,
+  "geometry": {
+    "height": 752,
+    "width": 1364,
+    "x": 390,
+    "y": 219
+  },
+  "image": {
+    "backend": "hardware",
+    "height": 752,
+    "mime_type": "image/png",
+    "timings_ms": {
+      "conversion": 3.3271,
+      "encoding": 43.1918,
+      "frame": 79.7679
+    },
+    "width": 1364
+  },
+  "observation_id": "{27890A98-3C30-44CD-807A-E73D08E0803F}",
+  "steady_ms": 338110885,
+  "window_id": "{453A5EF0-06DF-4FB6-B48A-D8779BF2DA10}"
+}

@@ -1,0 +1,9 @@
+{"detail":{"granted":false},"test":"foreground_permission"}
+{"detail":{"active":true,"detail":"","error":"","indicator_failed":false,"indicator_ready":true,"language":"ru","overlays":{"blue_strip_count":4,"capture_excluded":true,"panel":{"height":126,"width":640,"x":640,"y":8},"screens":[{"height":1080,"width":1920,"x":0,"y":0}],"yellow_strip_count":0},"paused":false,"phase":"waiting_ai","target_created":0,"target_pid":0,"task_id":"{895B00A5-D914-41F6-B88A-31149FEDA074}","task_title":"Desktop Control integration verification"},"test":"indicator_ready"}
+{"detail":{"count":3,"foreground_pid":13332,"test_host_pid":13332,"win32_error":0},"test":"test_click_delivery"}
+{"detail":{"error":{"code":"FOCUS_DENIED","elapsed_ms":313.58,"hresult":0,"message":"Windows did not grant focus; use activate_window with foreground_prompt=true or grant permission from the host","stage":"focus"},"foreground_permission":{"foreground_pid":13332,"helper_available":true,"method":"AllowSetForegroundWindow","prompt_timeout_ms":15000,"server_pid":13752,"server_process_created":"134360263769910164"},"outcome":"rejected"},"test":"foreground_denial"}
+{"detail":{"elapsed_ms":31.2984,"outcome":"rejected"},"test":"foreground_cancel"}
+{"detail":{"count":3,"foreground_pid":15752,"test_host_pid":13332,"win32_error":0},"test":"test_click_delivery"}
+{"detail":{"capture_excluded":true,"helper_pid":15752,"input_source":"synthetic_test_click","server_pid":13752},"test":"foreground_helper_handoff"}
+{"detail":{"count":3,"foreground_pid":13332,"test_host_pid":13332,"win32_error":0},"test":"test_click_delivery"}
+{"detail":{"message":"unlock test host foreground"},"test":"FAIL"}

@@ -1,0 +1,4568 @@
+{
+  "accessibility": {
+    "elements": [
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 941,
+          "width": 1216,
+          "x": 40,
+          "y": 32
+        },
+        "control_type": 50032,
+        "depth": 0,
+        "element_id": "element-0",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys",
+        "parent_id": "",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "TitleBar",
+        "bounds": {
+          "height": 32,
+          "width": 188,
+          "x": 1060,
+          "y": 33
+        },
+        "control_type": 50032,
+        "depth": 1,
+        "element_id": "element-1",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "DevToys"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 932,
+          "width": 1200,
+          "x": 48,
+          "y": 33
+        },
+        "control_type": 50032,
+        "depth": 1,
+        "element_id": "element-2",
+        "enabled": true,
+        "focused": true,
+        "name": "DevToys",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 900,
+          "width": 1200,
+          "x": 48,
+          "y": 65
+        },
+        "control_type": 50033,
+        "depth": 1,
+        "element_id": "element-3",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "SystemMenuBar",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50010,
+        "depth": 2,
+        "element_id": "element-4",
+        "enabled": true,
+        "focused": false,
+        "name": "System",
+        "parent_id": "element-1",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "Minimize",
+        "bounds": {
+          "height": 32,
+          "width": 46,
+          "x": 1110,
+          "y": 33
+        },
+        "control_type": 50000,
+        "depth": 2,
+        "element_id": "element-5",
+        "enabled": true,
+        "focused": false,
+        "name": "Minimize DevToys",
+        "parent_id": "element-1",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "Maximize",
+        "bounds": {
+          "height": 32,
+          "width": 46,
+          "x": 1156,
+          "y": 33
+        },
+        "control_type": 50000,
+        "depth": 2,
+        "element_id": "element-6",
+        "enabled": true,
+        "focused": false,
+        "name": "Maximize DevToys",
+        "parent_id": "element-1",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "Close",
+        "bounds": {
+          "height": 32,
+          "width": 46,
+          "x": 1202,
+          "y": 33
+        },
+        "control_type": 50000,
+        "depth": 2,
+        "element_id": "element-7",
+        "enabled": true,
+        "focused": false,
+        "name": "Close DevToys",
+        "parent_id": "element-1",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 16,
+          "width": 16,
+          "x": 96,
+          "y": 49
+        },
+        "control_type": 50006,
+        "depth": 2,
+        "element_id": "element-8",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-2",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 16,
+          "width": 44,
+          "x": 124,
+          "y": 49
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-9",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys",
+        "parent_id": "element-2",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "DevToys"
+      },
+      {
+        "automation_id": "CompactOverlayButton",
+        "bounds": {
+          "height": 28,
+          "width": 38,
+          "x": 1016,
+          "y": 35
+        },
+        "control_type": 50000,
+        "depth": 2,
+        "element_id": "element-10",
+        "enabled": false,
+        "focused": false,
+        "name": "Keep on top (Ctrl+Up)",
+        "parent_id": "element-2",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "NavigationView",
+        "bounds": {
+          "height": 932,
+          "width": 1200,
+          "x": 48,
+          "y": 33
+        },
+        "control_type": 50025,
+        "depth": 2,
+        "element_id": "element-11",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-2",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50011,
+        "depth": 3,
+        "element_id": "element-12",
+        "enabled": true,
+        "focused": false,
+        "name": "System",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": [
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "TogglePaneButton",
+        "bounds": {
+          "height": 36,
+          "width": 40,
+          "x": 52,
+          "y": 39
+        },
+        "control_type": 50000,
+        "depth": 3,
+        "element_id": "element-13",
+        "enabled": true,
+        "focused": false,
+        "name": "Close Navigation",
+        "parent_id": "element-11",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "PaneRoot",
+        "bounds": {
+          "height": 932,
+          "width": 320,
+          "x": 48,
+          "y": 33
+        },
+        "control_type": 50032,
+        "depth": 3,
+        "element_id": "element-14",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-11",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "ContentRootScrollViewer",
+        "bounds": {
+          "height": 885,
+          "width": 879,
+          "x": 369,
+          "y": 80
+        },
+        "control_type": 50033,
+        "depth": 3,
+        "element_id": "element-15",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-11",
+        "password": false,
+        "patterns": [
+          "scroll"
+        ]
+      },
+      {
+        "automation_id": "PaneTitleTextBlock",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 4,
+        "element_id": "element-16",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-13",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": ""
+      },
+      {
+        "automation_id": "SearchBox",
+        "bounds": {
+          "height": 32,
+          "width": 288,
+          "x": 64,
+          "y": 81
+        },
+        "control_type": 50026,
+        "depth": 4,
+        "element_id": "element-17",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-14",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "MenuItemsScrollViewer",
+        "bounds": {
+          "height": 792,
+          "width": 320,
+          "x": 48,
+          "y": 125
+        },
+        "control_type": 50033,
+        "depth": 4,
+        "element_id": "element-18",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-14",
+        "password": false,
+        "patterns": [
+          "scroll"
+        ]
+      },
+      {
+        "automation_id": "FooterItemsScrollViewer",
+        "bounds": {
+          "height": 40,
+          "width": 320,
+          "x": 48,
+          "y": 921
+        },
+        "control_type": 50033,
+        "depth": 4,
+        "element_id": "element-19",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-14",
+        "password": false,
+        "patterns": [
+          "scroll"
+        ]
+      },
+      {
+        "automation_id": "HeaderTextBlock",
+        "bounds": {
+          "height": 32,
+          "width": 767,
+          "x": 425,
+          "y": 128
+        },
+        "control_type": 50020,
+        "depth": 4,
+        "element_id": "element-20",
+        "enabled": true,
+        "focused": false,
+        "name": "All tools",
+        "parent_id": "element-15",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "All tools"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 793,
+          "width": 767,
+          "x": 425,
+          "y": 172
+        },
+        "control_type": 50008,
+        "depth": 4,
+        "element_id": "element-21",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-15",
+        "password": false,
+        "patterns": [
+          "scroll"
+        ]
+      },
+      {
+        "automation_id": "VerticalScrollBar",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50014,
+        "depth": 4,
+        "element_id": "element-22",
+        "enabled": true,
+        "focused": false,
+        "name": "Vertical",
+        "parent_id": "element-15",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "TextBox",
+        "bounds": {
+          "height": 32,
+          "width": 288,
+          "x": 64,
+          "y": 81
+        },
+        "control_type": 50004,
+        "depth": 5,
+        "element_id": "element-23",
+        "enabled": true,
+        "focused": true,
+        "name": "Type to search for tools...",
+        "parent_id": "element-17",
+        "password": false,
+        "patterns": [
+          "value",
+          "text"
+        ],
+        "text": "",
+        "value": ""
+      },
+      {
+        "automation_id": "MenuItemsHost",
+        "bounds": {
+          "height": 284,
+          "width": 320,
+          "x": 48,
+          "y": 127
+        },
+        "control_type": 50026,
+        "depth": 5,
+        "element_id": "element-24",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-18",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "FooterMenuItemsHost",
+        "bounds": {
+          "height": 36,
+          "width": 312,
+          "x": 52,
+          "y": 923
+        },
+        "control_type": 50026,
+        "depth": 5,
+        "element_id": "element-25",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-19",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 318,
+          "width": 175,
+          "x": 425,
+          "y": 172
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-26",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 318,
+          "width": 175,
+          "x": 616,
+          "y": 172
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-27",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 318,
+          "width": 175,
+          "x": 807,
+          "y": 172
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-28",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 318,
+          "width": 175,
+          "x": 998,
+          "y": 172
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-29",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 318,
+          "width": 175,
+          "x": 425,
+          "y": 522
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-30",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 318,
+          "width": 175,
+          "x": 616,
+          "y": 522
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-31",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 318,
+          "width": 175,
+          "x": 807,
+          "y": 522
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-32",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 318,
+          "width": 175,
+          "x": 998,
+          "y": 522
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-33",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 93,
+          "width": 175,
+          "x": 425,
+          "y": 872
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-34",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 93,
+          "width": 175,
+          "x": 616,
+          "y": 872
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-35",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 93,
+          "width": 175,
+          "x": 807,
+          "y": 872
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-36",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 93,
+          "width": 175,
+          "x": 998,
+          "y": 872
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-37",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-38",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-39",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-40",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-41",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-42",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-43",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-44",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-45",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-46",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-47",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-48",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-49",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-50",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-51",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-52",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-53",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-54",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 5,
+        "element_id": "element-55",
+        "enabled": true,
+        "focused": false,
+        "name": "DevToys.Api.Tools.ToolProviderViewItem",
+        "parent_id": "element-21",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 154,
+          "x": 75,
+          "y": 87
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-56",
+        "enabled": true,
+        "focused": false,
+        "name": "Type to search for tools...",
+        "parent_id": "element-23",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Type to search for tools..."
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 36,
+          "width": 312,
+          "x": 52,
+          "y": 127
+        },
+        "control_type": 50007,
+        "depth": 6,
+        "element_id": "element-57",
+        "enabled": true,
+        "focused": false,
+        "name": "All tools",
+        "parent_id": "element-24",
+        "password": false,
+        "patterns": [
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 36,
+          "width": 312,
+          "x": 52,
+          "y": 175
+        },
+        "control_type": 50007,
+        "depth": 6,
+        "element_id": "element-58",
+        "enabled": true,
+        "focused": false,
+        "name": "Converters",
+        "parent_id": "element-24",
+        "password": false,
+        "patterns": [
+          "selection",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 36,
+          "width": 312,
+          "x": 52,
+          "y": 215
+        },
+        "control_type": 50007,
+        "depth": 6,
+        "element_id": "element-59",
+        "enabled": true,
+        "focused": false,
+        "name": "Encoders and decoders",
+        "parent_id": "element-24",
+        "password": false,
+        "patterns": [
+          "selection",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 36,
+          "width": 312,
+          "x": 52,
+          "y": 255
+        },
+        "control_type": 50007,
+        "depth": 6,
+        "element_id": "element-60",
+        "enabled": true,
+        "focused": false,
+        "name": "Formatters",
+        "parent_id": "element-24",
+        "password": false,
+        "patterns": [
+          "selection",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 36,
+          "width": 312,
+          "x": 52,
+          "y": 295
+        },
+        "control_type": 50007,
+        "depth": 6,
+        "element_id": "element-61",
+        "enabled": true,
+        "focused": false,
+        "name": "Generators",
+        "parent_id": "element-24",
+        "password": false,
+        "patterns": [
+          "selection",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 36,
+          "width": 312,
+          "x": 52,
+          "y": 335
+        },
+        "control_type": 50007,
+        "depth": 6,
+        "element_id": "element-62",
+        "enabled": true,
+        "focused": false,
+        "name": "Text",
+        "parent_id": "element-24",
+        "password": false,
+        "patterns": [
+          "selection",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 36,
+          "width": 312,
+          "x": 52,
+          "y": 375
+        },
+        "control_type": 50007,
+        "depth": 6,
+        "element_id": "element-63",
+        "enabled": true,
+        "focused": false,
+        "name": "Graphic",
+        "parent_id": "element-24",
+        "password": false,
+        "patterns": [
+          "selection",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 36,
+          "width": 312,
+          "x": 52,
+          "y": 923
+        },
+        "control_type": 50007,
+        "depth": 6,
+        "element_id": "element-64",
+        "enabled": true,
+        "focused": false,
+        "name": "Settings",
+        "parent_id": "element-25",
+        "password": false,
+        "patterns": [
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 38,
+          "width": 141,
+          "x": 442,
+          "y": 353
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-65",
+        "enabled": true,
+        "focused": false,
+        "name": "Base64 Image Encoder / Decoder",
+        "parent_id": "element-26",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Base64 Image Encoder / Decoder"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 56,
+          "width": 133,
+          "x": 442,
+          "y": 393
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-66",
+        "enabled": true,
+        "focused": false,
+        "name": "Encode and decode Base64 image data",
+        "parent_id": "element-26",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Encode and decode Base64 image data"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 467,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-67",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-26",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 499,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-68",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-26",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 531,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-69",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-26",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 38,
+          "width": 141,
+          "x": 633,
+          "y": 353
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-70",
+        "enabled": true,
+        "focused": false,
+        "name": "Base64 Text Encoder / Decoder",
+        "parent_id": "element-27",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Base64 Text Encoder / Decoder"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 56,
+          "width": 133,
+          "x": 633,
+          "y": 393
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-71",
+        "enabled": true,
+        "focused": false,
+        "name": "Encode and decode Base64 text data",
+        "parent_id": "element-27",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Encode and decode Base64 text data"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 658,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-72",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-27",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 690,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-73",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-27",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 722,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-74",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-27",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 141,
+          "x": 824,
+          "y": 353
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-75",
+        "enabled": true,
+        "focused": false,
+        "name": "Certificate Decoder",
+        "parent_id": "element-28",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Certificate Decoder"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 75,
+          "width": 133,
+          "x": 824,
+          "y": 374
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-76",
+        "enabled": true,
+        "focused": false,
+        "name": "Decode a certificate",
+        "parent_id": "element-28",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Decode a certificate"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 849,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-77",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-28",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 881,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-78",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-28",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 913,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-79",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-28",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 141,
+          "x": 1015,
+          "y": 353
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-80",
+        "enabled": true,
+        "focused": false,
+        "name": "Checksum Generator",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Checksum Generator"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 75,
+          "width": 133,
+          "x": 1015,
+          "y": 374
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-81",
+        "enabled": true,
+        "focused": false,
+        "name": "Generate a hash with Checksum based on a file",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Generate a hash with Checksum based on a file"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 1040,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-82",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 1072,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-83",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 1104,
+          "y": 451
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-84",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 38,
+          "width": 141,
+          "x": 442,
+          "y": 703
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-85",
+        "enabled": true,
+        "focused": false,
+        "name": "Color Blindness Simulator",
+        "parent_id": "element-30",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Color Blindness Simulator"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 56,
+          "width": 133,
+          "x": 442,
+          "y": 743
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-86",
+        "enabled": true,
+        "focused": false,
+        "name": "Simulate color blindness on a picture or screenshot",
+        "parent_id": "element-30",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Simulate color blindness on a picture or screenshot"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 467,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-87",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-30",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 499,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-88",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-30",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 531,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-89",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-30",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 38,
+          "width": 141,
+          "x": 633,
+          "y": 703
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-90",
+        "enabled": true,
+        "focused": false,
+        "name": "Color Picker & Contrast",
+        "parent_id": "element-31",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Color Picker & Contrast"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 56,
+          "width": 133,
+          "x": 633,
+          "y": 743
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-91",
+        "enabled": true,
+        "focused": false,
+        "name": "Pick up a color or two and validate the contrast ratio",
+        "parent_id": "element-31",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Pick up a color or two and validate the contrast ratio"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 658,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-92",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-31",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 690,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-93",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-31",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 722,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-94",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-31",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 38,
+          "width": 141,
+          "x": 824,
+          "y": 703
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-95",
+        "enabled": true,
+        "focused": false,
+        "name": "Cron expression parser",
+        "parent_id": "element-32",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Cron expression parser"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 56,
+          "width": 133,
+          "x": 824,
+          "y": 743
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-96",
+        "enabled": true,
+        "focused": false,
+        "name": "Parse Cron expression to get scheduled dates",
+        "parent_id": "element-32",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Parse Cron expression to get scheduled dates"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 849,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-97",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-32",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 881,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-98",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-32",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 913,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-99",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-32",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 38,
+          "width": 141,
+          "x": 1015,
+          "y": 703
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-100",
+        "enabled": true,
+        "focused": false,
+        "name": "Text Escape / Unescape",
+        "parent_id": "element-33",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Text Escape / Unescape"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 56,
+          "width": 133,
+          "x": 1015,
+          "y": 743
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-101",
+        "enabled": true,
+        "focused": false,
+        "name": "Escapes or unescapes a string, removing characters that could prevent parsing.",
+        "parent_id": "element-33",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Escapes or unescapes a string, removing characters that could prevent parsing."
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 1040,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-102",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-33",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 1072,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-103",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-33",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 24,
+          "x": 1104,
+          "y": 801
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-104",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-33",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-105",
+        "enabled": true,
+        "focused": false,
+        "name": "GZip Compress / Decompress",
+        "parent_id": "element-34",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "GZip Compress / Decompress"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-106",
+        "enabled": true,
+        "focused": false,
+        "name": "Compress or decompress strings",
+        "parent_id": "element-34",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Compress or decompress strings"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-107",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-34",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-108",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-34",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-109",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-34",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-110",
+        "enabled": true,
+        "focused": false,
+        "name": "Hash Generator",
+        "parent_id": "element-35",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Hash Generator"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-111",
+        "enabled": true,
+        "focused": false,
+        "name": "Calculate MD5, SHA1, SHA256 and SHA512 hash from text data",
+        "parent_id": "element-35",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Calculate MD5, SHA1, SHA256 and SHA512 hash from text data"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-112",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-35",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-113",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-35",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-114",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-35",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-115",
+        "enabled": true,
+        "focused": false,
+        "name": "HTML Encoder / Decoder",
+        "parent_id": "element-36",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "HTML Encoder / Decoder"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-116",
+        "enabled": true,
+        "focused": false,
+        "name": "Encode or decode all the applicable characters to their corresponding HTML entities",
+        "parent_id": "element-36",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Encode or decode all the applicable characters to their corresponding HTML entities"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-117",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-36",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-118",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-36",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-119",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-36",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-120",
+        "enabled": true,
+        "focused": false,
+        "name": "Image Converter",
+        "parent_id": "element-37",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Image Converter"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-121",
+        "enabled": true,
+        "focused": false,
+        "name": "Lossless image converter",
+        "parent_id": "element-37",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Lossless image converter"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-122",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-37",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-123",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-37",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-124",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-37",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-125",
+        "enabled": true,
+        "focused": false,
+        "name": "Text Case Converter and Inspector",
+        "parent_id": "element-38",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Text Case Converter and Inspector"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-126",
+        "enabled": true,
+        "focused": false,
+        "name": "Analyze text and convert it to a different case",
+        "parent_id": "element-38",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Analyze text and convert it to a different case"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-127",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-38",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-128",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-38",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-129",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-38",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-130",
+        "enabled": true,
+        "focused": false,
+        "name": "JSON Formatter",
+        "parent_id": "element-39",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "JSON Formatter"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-131",
+        "enabled": true,
+        "focused": false,
+        "name": "Indent or minify JSON data",
+        "parent_id": "element-39",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Indent or minify JSON data"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-132",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-39",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-133",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-39",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-134",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-39",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-135",
+        "enabled": true,
+        "focused": false,
+        "name": "JSON <> YAML Converter",
+        "parent_id": "element-40",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "JSON <> YAML Converter"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-136",
+        "enabled": true,
+        "focused": false,
+        "name": "Convert JSON data to YAML and vice versa",
+        "parent_id": "element-40",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Convert JSON data to YAML and vice versa"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-137",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-40",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-138",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-40",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-139",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-40",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-140",
+        "enabled": true,
+        "focused": false,
+        "name": "JWT Encoder / Decoder",
+        "parent_id": "element-41",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "JWT Encoder / Decoder"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-141",
+        "enabled": true,
+        "focused": false,
+        "name": "Decode a JWT header, payload and signature",
+        "parent_id": "element-41",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Decode a JWT header, payload and signature"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-142",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-41",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-143",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-41",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-144",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-41",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-145",
+        "enabled": true,
+        "focused": false,
+        "name": "Lorem Ipsum Generator",
+        "parent_id": "element-42",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Lorem Ipsum Generator"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-146",
+        "enabled": true,
+        "focused": false,
+        "name": "Generate Lorem Ipsum placeholder text",
+        "parent_id": "element-42",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Generate Lorem Ipsum placeholder text"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-147",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-42",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-148",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-42",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-149",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-42",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-150",
+        "enabled": true,
+        "focused": false,
+        "name": "Markdown Preview",
+        "parent_id": "element-43",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Markdown Preview"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-151",
+        "enabled": true,
+        "focused": false,
+        "name": "Preview a Markdown document with a GitHub-like render",
+        "parent_id": "element-43",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Preview a Markdown document with a GitHub-like render"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-152",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-43",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-153",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-43",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-154",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-43",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-155",
+        "enabled": true,
+        "focused": false,
+        "name": "Number Base Converter",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Number Base Converter"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-156",
+        "enabled": true,
+        "focused": false,
+        "name": "Convert numbers from one base to another",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Convert numbers from one base to another"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-157",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-158",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-159",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-160",
+        "enabled": true,
+        "focused": false,
+        "name": "Password Generator",
+        "parent_id": "element-45",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Password Generator"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-161",
+        "enabled": true,
+        "focused": false,
+        "name": "Generate random passwords",
+        "parent_id": "element-45",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Generate random passwords"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-162",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-45",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-163",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-45",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-164",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-45",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-165",
+        "enabled": true,
+        "focused": false,
+        "name": "PNG / JPEG Compressor",
+        "parent_id": "element-46",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "PNG / JPEG Compressor"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-166",
+        "enabled": true,
+        "focused": false,
+        "name": "Lossless PNG and JPEG optimizer",
+        "parent_id": "element-46",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Lossless PNG and JPEG optimizer"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-167",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-46",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-168",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-46",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-169",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-46",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-170",
+        "enabled": true,
+        "focused": false,
+        "name": "Regex Tester",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Regex Tester"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-171",
+        "enabled": true,
+        "focused": false,
+        "name": "Validate and test regular expressions",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Validate and test regular expressions"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-172",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-173",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-174",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-175",
+        "enabled": true,
+        "focused": false,
+        "name": "SQL Formatter",
+        "parent_id": "element-48",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "SQL Formatter"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-176",
+        "enabled": true,
+        "focused": false,
+        "name": "Indent SQL queries",
+        "parent_id": "element-48",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Indent SQL queries"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-177",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-48",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-178",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-48",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-179",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-48",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-180",
+        "enabled": true,
+        "focused": false,
+        "name": "Text Comparer",
+        "parent_id": "element-49",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Text Comparer"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-181",
+        "enabled": true,
+        "focused": false,
+        "name": "Compare two texts",
+        "parent_id": "element-49",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Compare two texts"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-182",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-49",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-183",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-49",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-184",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-49",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-185",
+        "enabled": true,
+        "focused": false,
+        "name": "Unix Timestamp Converter",
+        "parent_id": "element-50",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Unix Timestamp Converter"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-186",
+        "enabled": true,
+        "focused": false,
+        "name": "Convert timestamp to human-readable date and vice versa",
+        "parent_id": "element-50",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Convert timestamp to human-readable date and vice versa"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-187",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-50",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-188",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-50",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-189",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-50",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-190",
+        "enabled": true,
+        "focused": false,
+        "name": "URL Encoder / Decoder",
+        "parent_id": "element-51",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "URL Encoder / Decoder"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-191",
+        "enabled": true,
+        "focused": false,
+        "name": "Encode or decode all the applicable characters to their corresponding URL entities",
+        "parent_id": "element-51",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Encode or decode all the applicable characters to their corresponding URL entities"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-192",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-51",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-193",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-51",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-194",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-51",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-195",
+        "enabled": true,
+        "focused": false,
+        "name": "UUID Generator",
+        "parent_id": "element-52",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "UUID Generator"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-196",
+        "enabled": true,
+        "focused": false,
+        "name": "Generate UUIDs version 1 and 4",
+        "parent_id": "element-52",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Generate UUIDs version 1 and 4"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-197",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-52",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-198",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-52",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-199",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-52",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-200",
+        "enabled": true,
+        "focused": false,
+        "name": "XML Formatter",
+        "parent_id": "element-53",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "XML Formatter"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-201",
+        "enabled": true,
+        "focused": false,
+        "name": "Indent or minify XML data",
+        "parent_id": "element-53",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Indent or minify XML data"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-202",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-53",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-203",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-53",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-204",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-53",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-205",
+        "enabled": true,
+        "focused": false,
+        "name": "XML Validator",
+        "parent_id": "element-54",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "XML Validator"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-206",
+        "enabled": true,
+        "focused": false,
+        "name": "Validate XML data via an XSD scheme.",
+        "parent_id": "element-54",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Validate XML data via an XSD scheme."
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-207",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-54",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-208",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-54",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-209",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-54",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-210",
+        "enabled": true,
+        "focused": false,
+        "name": "Settings",
+        "parent_id": "element-55",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Settings"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50020,
+        "depth": 6,
+        "element_id": "element-211",
+        "enabled": true,
+        "focused": false,
+        "name": "Customize DevToys look & feel",
+        "parent_id": "element-55",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Customize DevToys look & feel"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-212",
+        "enabled": true,
+        "focused": false,
+        "name": "Open in a new window",
+        "parent_id": "element-55",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "AddToFavoritesButton",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-213",
+        "enabled": true,
+        "focused": false,
+        "name": "Add to favorites",
+        "parent_id": "element-55",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-214",
+        "enabled": true,
+        "focused": false,
+        "name": "Pin tool to Start",
+        "parent_id": "element-55",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 246,
+          "x": 96,
+          "y": 136
+        },
+        "control_type": 50020,
+        "depth": 7,
+        "element_id": "element-215",
+        "enabled": true,
+        "focused": false,
+        "name": "All tools",
+        "parent_id": "element-57",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "All tools"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 220,
+          "x": 96,
+          "y": 184
+        },
+        "control_type": 50020,
+        "depth": 7,
+        "element_id": "element-216",
+        "enabled": true,
+        "focused": false,
+        "name": "Converters",
+        "parent_id": "element-58",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Converters"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 220,
+          "x": 96,
+          "y": 224
+        },
+        "control_type": 50020,
+        "depth": 7,
+        "element_id": "element-217",
+        "enabled": true,
+        "focused": false,
+        "name": "Encoders / Decoders",
+        "parent_id": "element-59",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Encoders / Decoders"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 220,
+          "x": 96,
+          "y": 264
+        },
+        "control_type": 50020,
+        "depth": 7,
+        "element_id": "element-218",
+        "enabled": true,
+        "focused": false,
+        "name": "Formatters",
+        "parent_id": "element-60",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Formatters"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 220,
+          "x": 96,
+          "y": 304
+        },
+        "control_type": 50020,
+        "depth": 7,
+        "element_id": "element-219",
+        "enabled": true,
+        "focused": false,
+        "name": "Generators",
+        "parent_id": "element-61",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Generators"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 220,
+          "x": 96,
+          "y": 344
+        },
+        "control_type": 50020,
+        "depth": 7,
+        "element_id": "element-220",
+        "enabled": true,
+        "focused": false,
+        "name": "Text",
+        "parent_id": "element-62",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Text"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 220,
+          "x": 96,
+          "y": 384
+        },
+        "control_type": 50020,
+        "depth": 7,
+        "element_id": "element-221",
+        "enabled": true,
+        "focused": false,
+        "name": "Graphic",
+        "parent_id": "element-63",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Graphic"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 246,
+          "x": 96,
+          "y": 932
+        },
+        "control_type": 50020,
+        "depth": 7,
+        "element_id": "element-222",
+        "enabled": true,
+        "focused": false,
+        "name": "Settings",
+        "parent_id": "element-64",
+        "password": false,
+        "patterns": [
+          "text"
+        ],
+        "text": "Settings"
+      }
+    ],
+    "observation_id": "{877630F3-9481-45D3-BD29-D69E2F839FE9}",
+    "truncated": false
+  },
+  "blocked_regions": [
+    {
+      "height": 126,
+      "width": 640,
+      "x": 640,
+      "y": 8
+    }
+  ],
+  "coordinate_mapping_valid": true,
+  "dpi": 96,
+  "geometry": {
+    "height": 934,
+    "width": 1202,
+    "x": 47,
+    "y": 32
+  },
+  "image": {
+    "backend": "hardware",
+    "height": 934,
+    "mime_type": "image/png",
+    "timings_ms": {
+      "conversion": 21.8038,
+      "encoding": 111.7483,
+      "frame": 134.8462
+    },
+    "width": 1202
+  },
+  "image_to_screen": {
+    "offset_x": 47,
+    "offset_y": 32,
+    "scale_x": 1,
+    "scale_y": 1,
+    "units": "physical_pixels"
+  },
+  "observation_id": "{877630F3-9481-45D3-BD29-D69E2F839FE9}",
+  "observed_at_utc": "2026-10-09T10:29:56.449Z",
+  "steady_ms": 339652128,
+  "window_id": "{3838B4EE-C094-450A-8E30-FDC1D854B50D}"
+}

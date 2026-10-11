@@ -1,0 +1,18 @@
+{"detail":{"granted":false},"test":"foreground_permission"}
+{"detail":{"active":true,"detail":"","error":"","indicator_failed":false,"indicator_ready":true,"language":"en","overlays":{"blue_strip_count":4,"capture_excluded":true,"panel":{"height":126,"width":640,"x":640,"y":8},"screens":[{"height":1080,"width":1920,"x":0,"y":0}],"yellow_strip_count":0},"paused":false,"phase":"waiting_ai","target_created":0,"target_pid":0,"task_id":"{CB1880D3-3023-4E1F-B731-C5366240ACAE}","task_title":"Desktop Control integration verification"},"test":"indicator_ready"}
+{"detail":{"elements":12,"geometry":{"height":503,"width":536,"x":107,"y":150},"image":{"backend":"hardware","height":503,"mime_type":"image/png","timings_ms":{"conversion":7.1391,"encoding":14.686,"frame":112.8161},"width":536}},"test":"capture_and_uia"}
+{"detail":{},"test":"uia_unicode_set_value"}
+{"detail":{},"test":"stale_observation_rejected"}
+{"detail":{"actual":"Привет, Windows! Unicode: 😀","expected":"Привет, Windows! Unicode: 😀"},"test":"unicode_input_actual"}
+{"detail":{},"test":"unicode_input"}
+{"detail":{},"test":"explicit_thinking"}
+{"detail":{},"test":"explicit_screenshot_analysis"}
+{"detail":{},"test":"uia_invoke"}
+{"detail":{"backend":"hardware","count":1},"test":"capture_progress"}
+{"detail":{"backend":"hardware","count":2,"elapsed_ms":186.64},"test":"capture_series"}
+{"detail":{"backend":"warp","count":1},"test":"capture_progress"}
+{"detail":{"backend":"warp","count":2,"elapsed_ms":156.5603},"test":"capture_series"}
+{"detail":{"error":{"code":"CANCELLED","elapsed_ms":230.5929,"hresult":0,"message":"Drag cancelled","stage":"drag"},"outcome":"unknown"},"test":"stop_during_drag"}
+{"detail":{},"test":"local_stop_button"}
+{"detail":{},"test":"synthetic_escape_does_not_stop"}
+{"detail":{},"test":"PASS"}

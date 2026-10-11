@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "desktop-control": {
+      "type": "stdio",
+      "command": "powershell.exe",
+      "args": [
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        "& (Join-Path $env:USERPROFILE 'Documents\\Codex\\desktop-control.exe'); exit $LASTEXITCODE"
+      ]
+    }
+  }
+}

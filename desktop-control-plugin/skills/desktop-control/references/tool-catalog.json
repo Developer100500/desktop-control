@@ -1,0 +1,509 @@
+{
+  "serverInfo": {
+    "name": "desktop-control",
+    "version": "0.1.0"
+  },
+  "tools": [
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Show the mandatory visible indicator before any capture or automation.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title"
+        ],
+        "type": "object"
+      },
+      "name": "begin_task"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Finish the task and remove control indicators.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "end_task"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "List installed packaged apps and discoverable Win32 apps.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "list_apps"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "List visible Win32 and UWP windows. Choose exactly one window_id.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "list_windows"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Launch an absolute .exe path or packaged AUMID; requires begin_task.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "app_id": {
+            "type": "string"
+          },
+          "arguments": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "app_id"
+        ],
+        "type": "object"
+      },
+      "name": "launch_app"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Request normal close; save dialogs are not dismissed.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "window_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "window_id"
+        ],
+        "type": "object"
+      },
+      "name": "close_window"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Request foreground focus; Windows may refuse.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "window_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "window_id"
+        ],
+        "type": "object"
+      },
+      "name": "activate_window"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Observe a selected window. Screenshot defaults to true; UIA to false. Returns fresh observation_id.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "backend": {
+            "enum": [
+              "auto",
+              "warp"
+            ],
+            "type": "string"
+          },
+          "include_screenshot": {
+            "type": "boolean"
+          },
+          "include_text": {
+            "type": "boolean"
+          },
+          "window_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "window_id"
+        ],
+        "type": "object"
+      },
+      "name": "observe"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Use a UIA pattern on an element from the latest observation. Always observe after an action.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "invoke",
+              "set_value",
+              "toggle",
+              "select",
+              "expand",
+              "collapse",
+              "scroll"
+            ],
+            "type": "string"
+          },
+          "element_id": {
+            "type": "string"
+          },
+          "horizontal": {
+            "type": "integer"
+          },
+          "observation_id": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "vertical": {
+            "type": "integer"
+          },
+          "window_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "window_id",
+          "observation_id",
+          "element_id",
+          "action"
+        ],
+        "type": "object"
+      },
+      "name": "element_action"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Click screenshot pixel coordinates; requires a valid observation and unobstructed target.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "button": {
+            "enum": [
+              "left",
+              "right",
+              "middle"
+            ],
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "observation_id": {
+            "type": "string"
+          },
+          "window_id": {
+            "type": "string"
+          },
+          "x": {
+            "type": "number"
+          },
+          "y": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "window_id",
+          "observation_id",
+          "x",
+          "y"
+        ],
+        "type": "object"
+      },
+      "name": "click"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Scroll at image coordinates. Wheel deltas are Windows units: 120 per notch.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "horizontal": {
+            "type": "integer"
+          },
+          "observation_id": {
+            "type": "string"
+          },
+          "vertical": {
+            "type": "integer"
+          },
+          "window_id": {
+            "type": "string"
+          },
+          "x": {
+            "type": "number"
+          },
+          "y": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "window_id",
+          "observation_id",
+          "x",
+          "y"
+        ],
+        "type": "object"
+      },
+      "name": "scroll"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Drag through 2..1000 image points, for at most 5000 ms.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "duration_ms": {
+            "type": "integer"
+          },
+          "observation_id": {
+            "type": "string"
+          },
+          "points": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "x": {
+                  "type": "number"
+                },
+                "y": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "x",
+                "y"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "window_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "window_id",
+          "observation_id",
+          "points"
+        ],
+        "type": "object"
+      },
+      "name": "drag"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Send a chord such as Ctrl+S, or an array of key names. Target must have focus.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "keys": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "window_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "window_id"
+        ],
+        "type": "object"
+      },
+      "name": "press_key"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Send literal Unicode text to the focused target window.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "window_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "window_id",
+          "text"
+        ],
+        "type": "object"
+      },
+      "name": "type_text"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Explicitly report thinking or screenshot analysis, valid for 30 seconds. Never inferred from inactivity.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "observation_id": {
+            "type": "string"
+          },
+          "phase": {
+            "enum": [
+              "thinking",
+              "processing_screenshot"
+            ],
+            "type": "string"
+          },
+          "task_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "task_id",
+          "phase"
+        ],
+        "type": "object"
+      },
+      "name": "report_agent_status"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Immediately pause and cancel automation.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "stop"
+    },
+    {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Explicitly resume a paused task after checking its indicator.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "resume"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Return engine, session and task state without screenshots or typed text.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "diagnostics"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "app_id": "windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel",
+    "aumid": "windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel",
+    "kind": "packaged",
+    "name": "Settings"
+  },
+  {
+    "app_id": "Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI",
+    "aumid": "Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI",
+    "kind": "packaged",
+    "name": "Windows Security"
+  },
+  {
+    "app_id": "AppUp.IntelGraphicsExperience_8j3eq9eme6ctt!App",
+    "aumid": "AppUp.IntelGraphicsExperience_8j3eq9eme6ctt!App",
+    "kind": "packaged",
+    "name": "Intel® Graphics Command Center"
+  },
+  {
+    "app_id": "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!WindowsBackup",
+    "aumid": "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!WindowsBackup",
+    "kind": "packaged",
+    "name": "Windows Backup"
+  },
+  {
+    "app_id": "64360VelerSoftware.DevToys_j80j2txgjg9dj!App",
+    "aumid": "64360VelerSoftware.DevToys_j80j2txgjg9dj!App",
+    "kind": "packaged",
+    "name": "DevToys"
+  },
+  {
+    "app_id": "Microsoft.WindowsTerminal_8wekyb3d8bbwe!App",
+    "aumid": "Microsoft.WindowsTerminal_8wekyb3d8bbwe!App",
+    "kind": "packaged",
+    "name": "Terminal"
+  },
+  {
+    "app_id": "OpenAI.Codex_2p2nqsd0c76g0!App",
+    "aumid": "OpenAI.Codex_2p2nqsd0c76g0!App",
+    "kind": "packaged",
+    "name": "ChatGPT"
+  },
+  {
+    "app_id": "Microsoft.WindowsStore_8wekyb3d8bbwe!App",
+    "aumid": "Microsoft.WindowsStore_8wekyb3d8bbwe!App",
+    "kind": "packaged",
+    "name": "Microsoft Store"
+  }
+]

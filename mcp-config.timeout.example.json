@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "desktop-control": {
+      "command": "C:\\path\\to\\desktop-control.exe",
+      "args": ["--timeout", "300"]
+    }
+  }
+}

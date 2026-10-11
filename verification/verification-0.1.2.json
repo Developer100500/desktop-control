@@ -1,0 +1,17 @@
+{
+  "version": "0.1.2",
+  "protocol_tests": 8,
+  "foreground_regression": "PASS",
+  "fixture_regression": "PASS",
+  "native_confirmation_tested": "synthetic acceptance of own test server only",
+  "archives": {
+    "desktop-control-plugin-0.1.2.zip": {
+      "path": "C:\\Users\\admin\\.codex\\visualizations\\2026\\10\\09\\01a12121-6da7-7c21-88c3-d90ea1384b3e\\desktop-control-work\\desktop-control-plugin-0.1.2.zip",
+      "sha256": "f258a0635ca61627074e00b3ba33e901ae15eac0640ce7d33e20c195f2f4a575"
+    },
+    "desktop-control-portable-0.1.2.zip": {
+      "path": "C:\\Users\\admin\\.codex\\visualizations\\2026\\10\\09\\01a12121-6da7-7c21-88c3-d90ea1384b3e\\desktop-control-work\\desktop-control-portable-0.1.2.zip",
+      "sha256": "9cecc9781f4afd702c1a50870a8534425919c92e6f947a48225593e143d0843c"
+    }
+  }
+}

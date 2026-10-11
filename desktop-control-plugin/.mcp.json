@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "desktop-control": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        "& (Join-Path $env:USERPROFILE 'Documents\\Codex\\desktop-control.exe'); exit $LASTEXITCODE"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "architecture": "x64",
+  "interactive_desktop": true,
+  "os": {
+    "build": 19045,
+    "major": 10,
+    "minor": 0,
+    "supported": true,
+    "workstation": true
+  },
+  "protocol_version": "2025-11-25",
+  "session_id": 5,
+  "state": {
+    "active": false,
+    "detail": "",
+    "error": "",
+    "indicator_failed": false,
+    "indicator_ready": false,
+    "language": "en",
+    "overlays": {},
+    "paused": false,
+    "phase": "idle",
+    "target_created": 0,
+    "target_pid": 0,
+    "task_id": "",
+    "task_title": ""
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,2240 @@
+{
+  "accessibility": {
+    "elements": [
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 1056,
+          "width": 1936,
+          "x": -8,
+          "y": -8
+        },
+        "control_type": 50032,
+        "depth": 0,
+        "element_id": "element-0",
+        "enabled": true,
+        "focused": true,
+        "name": "paint-house.bmp - Paint",
+        "parent_id": "",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 116,
+          "width": 1920,
+          "x": 0,
+          "y": 23
+        },
+        "control_type": 50033,
+        "depth": 1,
+        "element_id": "element-1",
+        "enabled": true,
+        "focused": false,
+        "name": "UIRibbonDockTop",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "59648",
+        "bounds": {
+          "height": 875,
+          "width": 1920,
+          "x": 0,
+          "y": 139
+        },
+        "control_type": 50033,
+        "depth": 1,
+        "element_id": "element-2",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "9249",
+        "bounds": {
+          "height": 147,
+          "width": 1920,
+          "x": 0,
+          "y": -8
+        },
+        "control_type": 50033,
+        "depth": 1,
+        "element_id": "element-3",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "59393",
+        "bounds": {
+          "height": 26,
+          "width": 1920,
+          "x": 0,
+          "y": 1014
+        },
+        "control_type": 50017,
+        "depth": 1,
+        "element_id": "element-4",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "TitleBar",
+        "bounds": {
+          "height": 31,
+          "width": 1904,
+          "x": 16,
+          "y": -5
+        },
+        "control_type": 50037,
+        "depth": 1,
+        "element_id": "element-5",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-0",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "paint-house.bmp - Paint"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 116,
+          "width": 1920,
+          "x": 0,
+          "y": 23
+        },
+        "control_type": 50033,
+        "depth": 2,
+        "element_id": "element-6",
+        "enabled": true,
+        "focused": false,
+        "name": "Ribbon",
+        "parent_id": "element-1",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 875,
+          "width": 1920,
+          "x": 0,
+          "y": 139
+        },
+        "control_type": 50033,
+        "depth": 2,
+        "element_id": "element-7",
+        "enabled": true,
+        "focused": true,
+        "name": "Using Brush tool on Canvas",
+        "parent_id": "element-2",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "53249",
+        "bounds": {
+          "height": 22,
+          "width": 190,
+          "x": 1729,
+          "y": 1017
+        },
+        "control_type": 50033,
+        "depth": 2,
+        "element_id": "element-8",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 24,
+          "width": 156,
+          "x": 0,
+          "y": 1016
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-9",
+        "enabled": true,
+        "focused": false,
+        "name": "595, 421‏px",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 24,
+          "width": 154,
+          "x": 158,
+          "y": 1016
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-10",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 24,
+          "width": 154,
+          "x": 314,
+          "y": 1016
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-11",
+        "enabled": true,
+        "focused": false,
+        "name": "800 × 500‏px",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 24,
+          "width": 154,
+          "x": 470,
+          "y": 1016
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-12",
+        "enabled": true,
+        "focused": false,
+        "name": "Size: 1,1MB",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 24,
+          "width": 1096,
+          "x": 626,
+          "y": 1016
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-13",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 24,
+          "width": 196,
+          "x": 1724,
+          "y": 1016
+        },
+        "control_type": 50020,
+        "depth": 2,
+        "element_id": "element-14",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-4",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "SystemMenuBar",
+        "bounds": {
+          "height": 22,
+          "width": 22,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50010,
+        "depth": 2,
+        "element_id": "element-15",
+        "enabled": true,
+        "focused": false,
+        "name": "System",
+        "parent_id": "element-5",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "Minimize-Restore",
+        "bounds": {
+          "height": 14,
+          "width": 47,
+          "x": 1779,
+          "y": 8
+        },
+        "control_type": 50000,
+        "depth": 2,
+        "element_id": "element-16",
+        "enabled": true,
+        "focused": false,
+        "name": "Minimize",
+        "parent_id": "element-5",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "Maximize-Restore",
+        "bounds": {
+          "height": 14,
+          "width": 46,
+          "x": 1826,
+          "y": 8
+        },
+        "control_type": 50000,
+        "depth": 2,
+        "element_id": "element-17",
+        "enabled": true,
+        "focused": false,
+        "name": "Restore",
+        "parent_id": "element-5",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "Close",
+        "bounds": {
+          "height": 14,
+          "width": 56,
+          "x": 1872,
+          "y": 8
+        },
+        "control_type": 50000,
+        "depth": 2,
+        "element_id": "element-18",
+        "enabled": true,
+        "focused": false,
+        "name": "Close",
+        "parent_id": "element-5",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 116,
+          "width": 1920,
+          "x": 0,
+          "y": 23
+        },
+        "control_type": 50033,
+        "depth": 3,
+        "element_id": "element-19",
+        "enabled": true,
+        "focused": false,
+        "name": "Ribbon",
+        "parent_id": "element-6",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "53251",
+        "bounds": {
+          "height": 22,
+          "width": 40,
+          "x": 1731,
+          "y": 1017
+        },
+        "control_type": 50020,
+        "depth": 3,
+        "element_id": "element-20",
+        "enabled": true,
+        "focused": false,
+        "name": "100%",
+        "parent_id": "element-8",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "53252",
+        "bounds": {
+          "height": 22,
+          "width": 22,
+          "x": 1775,
+          "y": 1017
+        },
+        "control_type": 50000,
+        "depth": 3,
+        "element_id": "element-21",
+        "enabled": true,
+        "focused": false,
+        "name": "Zoom out",
+        "parent_id": "element-8",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "53254",
+        "bounds": {
+          "height": 22,
+          "width": 100,
+          "x": 1797,
+          "y": 1017
+        },
+        "control_type": 50015,
+        "depth": 3,
+        "element_id": "element-22",
+        "enabled": true,
+        "focused": false,
+        "name": "Zoom slider",
+        "parent_id": "element-8",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "100%"
+      },
+      {
+        "automation_id": "53253",
+        "bounds": {
+          "height": 22,
+          "width": 22,
+          "x": 1897,
+          "y": 1017
+        },
+        "control_type": 50000,
+        "depth": 3,
+        "element_id": "element-23",
+        "enabled": true,
+        "focused": false,
+        "name": "Zoom in",
+        "parent_id": "element-8",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 22,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50011,
+        "depth": 3,
+        "element_id": "element-24",
+        "enabled": true,
+        "focused": false,
+        "name": "System",
+        "parent_id": "element-15",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 147,
+          "width": 1920,
+          "x": 0,
+          "y": 23
+        },
+        "control_type": 50033,
+        "depth": 4,
+        "element_id": "element-25",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-19",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 4,
+          "width": 38,
+          "x": 1804,
+          "y": 1025
+        },
+        "control_type": 50000,
+        "depth": 4,
+        "element_id": "element-26",
+        "enabled": true,
+        "focused": false,
+        "name": "Page left",
+        "parent_id": "element-22",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 18,
+          "width": 10,
+          "x": 1842,
+          "y": 1019
+        },
+        "control_type": 50027,
+        "depth": 4,
+        "element_id": "element-27",
+        "enabled": true,
+        "focused": false,
+        "name": "Position",
+        "parent_id": "element-22",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 4,
+          "width": 37,
+          "x": 1852,
+          "y": 1025
+        },
+        "control_type": 50000,
+        "depth": 4,
+        "element_id": "element-28",
+        "enabled": true,
+        "focused": false,
+        "name": "Page right",
+        "parent_id": "element-22",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 147,
+          "width": 1920,
+          "x": 0,
+          "y": -8
+        },
+        "control_type": 50033,
+        "depth": 5,
+        "element_id": "element-29",
+        "enabled": true,
+        "focused": false,
+        "name": "Ribbon",
+        "parent_id": "element-25",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 66,
+          "x": 30,
+          "y": 1
+        },
+        "control_type": 50021,
+        "depth": 6,
+        "element_id": "element-30",
+        "enabled": true,
+        "focused": false,
+        "name": "Quick Access Toolbar",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "value"
+        ],
+        "value": "Quick Access Toolbar"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 13,
+          "x": 97,
+          "y": 1
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-31",
+        "enabled": true,
+        "focused": false,
+        "name": "Customize Quick Access Toolbar",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 23,
+          "width": 56,
+          "x": 0,
+          "y": 23
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-32",
+        "enabled": true,
+        "focused": false,
+        "name": "File tab",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 23,
+          "width": 1820,
+          "x": 56,
+          "y": 23
+        },
+        "control_type": 50018,
+        "depth": 6,
+        "element_id": "element-33",
+        "enabled": true,
+        "focused": false,
+        "name": "Ribbon tabs",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "Ribbon tabs list"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 22,
+          "x": 1876,
+          "y": 23
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-34",
+        "enabled": true,
+        "focused": false,
+        "name": "Minimize the Ribbon",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 22,
+          "x": 1898,
+          "y": 23
+        },
+        "control_type": 50000,
+        "depth": 6,
+        "element_id": "element-35",
+        "enabled": true,
+        "focused": false,
+        "name": "Help",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 93,
+          "width": 1920,
+          "x": 0,
+          "y": 46
+        },
+        "control_type": 50033,
+        "depth": 6,
+        "element_id": "element-36",
+        "enabled": true,
+        "focused": false,
+        "name": "Lower Ribbon",
+        "parent_id": "element-29",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "Lower Ribbon"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 24,
+          "width": 22,
+          "x": 30,
+          "y": -1
+        },
+        "control_type": 50000,
+        "depth": 7,
+        "element_id": "element-37",
+        "enabled": true,
+        "focused": false,
+        "name": "Save",
+        "parent_id": "element-30",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 24,
+          "width": 22,
+          "x": 52,
+          "y": -1
+        },
+        "control_type": 50000,
+        "depth": 7,
+        "element_id": "element-38",
+        "enabled": true,
+        "focused": false,
+        "name": "Undo",
+        "parent_id": "element-30",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 24,
+          "width": 22,
+          "x": 74,
+          "y": -1
+        },
+        "control_type": 50000,
+        "depth": 7,
+        "element_id": "element-39",
+        "enabled": false,
+        "focused": false,
+        "name": "Redo",
+        "parent_id": "element-30",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 23,
+          "width": 1820,
+          "x": 56,
+          "y": 23
+        },
+        "control_type": 50025,
+        "depth": 7,
+        "element_id": "element-40",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-33",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 93,
+          "width": 1920,
+          "x": 0,
+          "y": 46
+        },
+        "control_type": 50025,
+        "depth": 7,
+        "element_id": "element-41",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-36",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 23,
+          "width": 58,
+          "x": 56,
+          "y": 23
+        },
+        "control_type": 50019,
+        "depth": 8,
+        "element_id": "element-42",
+        "enabled": true,
+        "focused": false,
+        "name": "Home",
+        "parent_id": "element-40",
+        "password": false,
+        "patterns": [
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 23,
+          "width": 53,
+          "x": 115,
+          "y": 23
+        },
+        "control_type": 50019,
+        "depth": 8,
+        "element_id": "element-43",
+        "enabled": true,
+        "focused": false,
+        "name": "View",
+        "parent_id": "element-40",
+        "password": false,
+        "patterns": [
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 93,
+          "width": 1920,
+          "x": 0,
+          "y": 46
+        },
+        "control_type": 50025,
+        "depth": 8,
+        "element_id": "element-44",
+        "enabled": true,
+        "focused": false,
+        "name": "Home",
+        "parent_id": "element-41",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 89,
+          "width": 103,
+          "x": 4,
+          "y": 49
+        },
+        "control_type": 50021,
+        "depth": 9,
+        "element_id": "element-45",
+        "enabled": true,
+        "focused": false,
+        "name": "Clipboard",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "Group"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 89,
+          "width": 120,
+          "x": 109,
+          "y": 49
+        },
+        "control_type": 50021,
+        "depth": 9,
+        "element_id": "element-46",
+        "enabled": true,
+        "focused": false,
+        "name": "Image",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "Group"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 89,
+          "width": 78,
+          "x": 231,
+          "y": 49
+        },
+        "control_type": 50021,
+        "depth": 9,
+        "element_id": "element-47",
+        "enabled": true,
+        "focused": false,
+        "name": "Tools",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "Group"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 89,
+          "width": 54,
+          "x": 311,
+          "y": 49
+        },
+        "control_type": 50021,
+        "depth": 9,
+        "element_id": "element-48",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "Group"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 89,
+          "width": 244,
+          "x": 367,
+          "y": 49
+        },
+        "control_type": 50021,
+        "depth": 9,
+        "element_id": "element-49",
+        "enabled": true,
+        "focused": false,
+        "name": "Shapes",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "Group"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 89,
+          "width": 51,
+          "x": 613,
+          "y": 49
+        },
+        "control_type": 50021,
+        "depth": 9,
+        "element_id": "element-50",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "Group"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 89,
+          "width": 355,
+          "x": 666,
+          "y": 49
+        },
+        "control_type": 50021,
+        "depth": 9,
+        "element_id": "element-51",
+        "enabled": true,
+        "focused": false,
+        "name": "Colors",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "Group"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 89,
+          "width": 60,
+          "x": 1023,
+          "y": 49
+        },
+        "control_type": 50021,
+        "depth": 9,
+        "element_id": "element-52",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-44",
+        "password": false,
+        "patterns": [
+          "value"
+        ],
+        "value": "Group"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 66,
+          "width": 42,
+          "x": 6,
+          "y": 51
+        },
+        "control_type": 50026,
+        "depth": 10,
+        "element_id": "element-53",
+        "enabled": true,
+        "focused": false,
+        "name": "Paste",
+        "parent_id": "element-45",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 44,
+          "x": 48,
+          "y": 51
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-54",
+        "enabled": false,
+        "focused": false,
+        "name": "Cut",
+        "parent_id": "element-45",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 52,
+          "x": 48,
+          "y": 73
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-55",
+        "enabled": false,
+        "focused": false,
+        "name": "Copy",
+        "parent_id": "element-45",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 66,
+          "width": 42,
+          "x": 111,
+          "y": 51
+        },
+        "control_type": 50026,
+        "depth": 10,
+        "element_id": "element-56",
+        "enabled": true,
+        "focused": false,
+        "name": "Select",
+        "parent_id": "element-46",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 51,
+          "x": 153,
+          "y": 51
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-57",
+        "enabled": false,
+        "focused": false,
+        "name": "Crop",
+        "parent_id": "element-46",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 58,
+          "x": 153,
+          "y": 73
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-58",
+        "enabled": true,
+        "focused": false,
+        "name": "Resize",
+        "parent_id": "element-46",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 69,
+          "x": 153,
+          "y": 95
+        },
+        "control_type": 50031,
+        "depth": 10,
+        "element_id": "element-59",
+        "enabled": true,
+        "focused": false,
+        "name": "Rotate",
+        "parent_id": "element-46",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 23,
+          "x": 233,
+          "y": 59
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-60",
+        "enabled": true,
+        "focused": false,
+        "name": "Pencil",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 24,
+          "x": 256,
+          "y": 59
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-61",
+        "enabled": true,
+        "focused": false,
+        "name": "Fill with color",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 22,
+          "x": 280,
+          "y": 59
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-62",
+        "enabled": true,
+        "focused": false,
+        "name": "Text",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 23,
+          "x": 233,
+          "y": 88
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-63",
+        "enabled": true,
+        "focused": false,
+        "name": "Eraser",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 24,
+          "x": 256,
+          "y": 88
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-64",
+        "enabled": true,
+        "focused": false,
+        "name": "Color picker",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 22,
+          "x": 280,
+          "y": 88
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-65",
+        "enabled": true,
+        "focused": false,
+        "name": "Magnifier",
+        "parent_id": "element-47",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 64,
+          "width": 45,
+          "x": 313,
+          "y": 51
+        },
+        "control_type": 50026,
+        "depth": 10,
+        "element_id": "element-66",
+        "enabled": true,
+        "focused": false,
+        "name": "Brushes",
+        "parent_id": "element-48",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 63,
+          "width": 161,
+          "x": 369,
+          "y": 51
+        },
+        "control_type": 50026,
+        "depth": 10,
+        "element_id": "element-67",
+        "enabled": true,
+        "focused": false,
+        "name": "Shapes",
+        "parent_id": "element-49",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 74,
+          "x": 530,
+          "y": 51
+        },
+        "control_type": 50031,
+        "depth": 10,
+        "element_id": "element-68",
+        "enabled": false,
+        "focused": false,
+        "name": "Outline",
+        "parent_id": "element-49",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 22,
+          "width": 50,
+          "x": 530,
+          "y": 73
+        },
+        "control_type": 50031,
+        "depth": 10,
+        "element_id": "element-69",
+        "enabled": false,
+        "focused": false,
+        "name": "Fill",
+        "parent_id": "element-49",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 66,
+          "width": 42,
+          "x": 615,
+          "y": 51
+        },
+        "control_type": 50031,
+        "depth": 10,
+        "element_id": "element-70",
+        "enabled": true,
+        "focused": false,
+        "name": "Size",
+        "parent_id": "element-50",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 66,
+          "width": 42,
+          "x": 668,
+          "y": 51
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-71",
+        "enabled": true,
+        "focused": false,
+        "name": "Color 1",
+        "parent_id": "element-51",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 66,
+          "width": 42,
+          "x": 710,
+          "y": 51
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-72",
+        "enabled": true,
+        "focused": false,
+        "name": "Color 2",
+        "parent_id": "element-51",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 66,
+          "width": 220,
+          "x": 752,
+          "y": 51
+        },
+        "control_type": 50026,
+        "depth": 10,
+        "element_id": "element-73",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-51",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 66,
+          "width": 42,
+          "x": 972,
+          "y": 51
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-74",
+        "enabled": true,
+        "focused": false,
+        "name": "Edit colors",
+        "parent_id": "element-51",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 66,
+          "width": 51,
+          "x": 1025,
+          "y": 51
+        },
+        "control_type": 50000,
+        "depth": 10,
+        "element_id": "element-75",
+        "enabled": true,
+        "focused": false,
+        "name": "Edit with Paint 3D",
+        "parent_id": "element-52",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 38,
+          "width": 42,
+          "x": 6,
+          "y": 51
+        },
+        "control_type": 50031,
+        "depth": 11,
+        "element_id": "element-76",
+        "enabled": false,
+        "focused": false,
+        "name": "Paste",
+        "parent_id": "element-53",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "value",
+          "expand_collapse"
+        ],
+        "value": "Paste (Ctrl+V)"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 42,
+          "x": 6,
+          "y": 89
+        },
+        "control_type": 50031,
+        "depth": 11,
+        "element_id": "element-77",
+        "enabled": true,
+        "focused": false,
+        "name": "Paste",
+        "parent_id": "element-53",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 38,
+          "width": 42,
+          "x": 111,
+          "y": 51
+        },
+        "control_type": 50031,
+        "depth": 11,
+        "element_id": "element-78",
+        "enabled": true,
+        "focused": false,
+        "name": "Select",
+        "parent_id": "element-56",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "value",
+          "expand_collapse"
+        ],
+        "value": "Selection"
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 28,
+          "width": 42,
+          "x": 111,
+          "y": 89
+        },
+        "control_type": 50031,
+        "depth": 11,
+        "element_id": "element-79",
+        "enabled": true,
+        "focused": false,
+        "name": "Select",
+        "parent_id": "element-56",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 38,
+          "width": 45,
+          "x": 313,
+          "y": 51
+        },
+        "control_type": 50031,
+        "depth": 11,
+        "element_id": "element-80",
+        "enabled": true,
+        "focused": false,
+        "name": "Brushes",
+        "parent_id": "element-66",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 26,
+          "width": 45,
+          "x": 313,
+          "y": 89
+        },
+        "control_type": 50000,
+        "depth": 11,
+        "element_id": "element-81",
+        "enabled": true,
+        "focused": false,
+        "name": "Brushes",
+        "parent_id": "element-66",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 60,
+          "width": 142,
+          "x": 370,
+          "y": 54
+        },
+        "control_type": 50008,
+        "depth": 11,
+        "element_id": "element-82",
+        "enabled": true,
+        "focused": false,
+        "name": "Shapes",
+        "parent_id": "element-67",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 21,
+          "width": 15,
+          "x": 512,
+          "y": 54
+        },
+        "control_type": 50000,
+        "depth": 11,
+        "element_id": "element-83",
+        "enabled": false,
+        "focused": false,
+        "name": "Row up",
+        "parent_id": "element-67",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 19,
+          "width": 15,
+          "x": 512,
+          "y": 75
+        },
+        "control_type": 50000,
+        "depth": 11,
+        "element_id": "element-84",
+        "enabled": true,
+        "focused": false,
+        "name": "Row down",
+        "parent_id": "element-67",
+        "password": false,
+        "patterns": [
+          "invoke"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 15,
+          "x": 512,
+          "y": 94
+        },
+        "control_type": 50000,
+        "depth": 11,
+        "element_id": "element-85",
+        "enabled": true,
+        "focused": false,
+        "name": "Shapes",
+        "parent_id": "element-67",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "expand_collapse"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 60,
+          "width": 140,
+          "x": 371,
+          "y": 54
+        },
+        "control_type": 50025,
+        "depth": 12,
+        "element_id": "element-86",
+        "enabled": true,
+        "focused": false,
+        "name": "",
+        "parent_id": "element-82",
+        "password": false,
+        "patterns": []
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 371,
+          "y": 54
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-87",
+        "enabled": true,
+        "focused": false,
+        "name": "Line",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 391,
+          "y": 54
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-88",
+        "enabled": true,
+        "focused": false,
+        "name": "Curve",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 411,
+          "y": 54
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-89",
+        "enabled": true,
+        "focused": false,
+        "name": "Oval",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 431,
+          "y": 54
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-90",
+        "enabled": true,
+        "focused": false,
+        "name": "Rectangle",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 451,
+          "y": 54
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-91",
+        "enabled": true,
+        "focused": false,
+        "name": "Rounded rectangle",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 471,
+          "y": 54
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-92",
+        "enabled": true,
+        "focused": false,
+        "name": "Polygon",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 491,
+          "y": 54
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-93",
+        "enabled": true,
+        "focused": false,
+        "name": "Triangle",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 371,
+          "y": 74
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-94",
+        "enabled": true,
+        "focused": false,
+        "name": "Right triangle",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 391,
+          "y": 74
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-95",
+        "enabled": true,
+        "focused": false,
+        "name": "Diamond",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 411,
+          "y": 74
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-96",
+        "enabled": true,
+        "focused": false,
+        "name": "Pentagon",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 431,
+          "y": 74
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-97",
+        "enabled": true,
+        "focused": false,
+        "name": "Hexagon",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 451,
+          "y": 74
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-98",
+        "enabled": true,
+        "focused": false,
+        "name": "Right arrow",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 471,
+          "y": 74
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-99",
+        "enabled": true,
+        "focused": false,
+        "name": "Left arrow",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 491,
+          "y": 74
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-100",
+        "enabled": true,
+        "focused": false,
+        "name": "Up arrow",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 371,
+          "y": 94
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-101",
+        "enabled": true,
+        "focused": false,
+        "name": "Down arrow",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 391,
+          "y": 94
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-102",
+        "enabled": true,
+        "focused": false,
+        "name": "Four-point star",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 411,
+          "y": 94
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-103",
+        "enabled": true,
+        "focused": false,
+        "name": "Five-point star",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 431,
+          "y": 94
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-104",
+        "enabled": true,
+        "focused": false,
+        "name": "Six-point star",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 451,
+          "y": 94
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-105",
+        "enabled": true,
+        "focused": false,
+        "name": "Rounded rectangular callout",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 471,
+          "y": 94
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-106",
+        "enabled": true,
+        "focused": false,
+        "name": "Oval callout",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 20,
+          "width": 20,
+          "x": 491,
+          "y": 94
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-107",
+        "enabled": true,
+        "focused": false,
+        "name": "Cloud callout",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-108",
+        "enabled": true,
+        "focused": false,
+        "name": "Heart",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      },
+      {
+        "automation_id": "",
+        "bounds": {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "control_type": 50007,
+        "depth": 13,
+        "element_id": "element-109",
+        "enabled": true,
+        "focused": false,
+        "name": "Lightning",
+        "parent_id": "element-86",
+        "password": false,
+        "patterns": [
+          "invoke",
+          "selection"
+        ]
+      }
+    ],
+    "observation_id": "{20E13E0E-9FC5-4FF7-A142-1CC8F3D5BE59}",
+    "truncated": false
+  },
+  "blocked_regions": [
+    {
+      "height": 126,
+      "width": 640,
+      "x": 640,
+      "y": 8
+    }
+  ],
+  "coordinate_mapping_valid": true,
+  "dpi": 96,
+  "geometry": {
+    "height": 1040,
+    "width": 1920,
+    "x": 0,
+    "y": 0
+  },
+  "image": {
+    "backend": "hardware",
+    "height": 1040,
+    "mime_type": "image/png",
+    "timings_ms": {
+      "conversion": 6.2182,
+      "encoding": 141.1992,
+      "frame": 136.6519
+    },
+    "width": 1920
+  },
+  "image_to_screen": {
+    "offset_x": 0,
+    "offset_y": 0,
+    "scale_x": 1,
+    "scale_y": 1,
+    "units": "physical_pixels"
+  },
+  "observation_id": "{20E13E0E-9FC5-4FF7-A142-1CC8F3D5BE59}",
+  "observed_at_utc": "2026-10-09T10:28:59.287Z",
+  "steady_ms": 339594965,
+  "window_id": "{74451BAB-C4B5-4E75-A4A3-4930067AC63C}"
+}
