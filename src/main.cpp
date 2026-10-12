@@ -38,7 +38,8 @@ int wmain(int argc, wchar_t **argv)
                              " [--diagnostics|--test-worker-recovery]\n"
                              "--timeout: common internal wait budget and observation lifetime, 1..86400 seconds.\n"
                              "Without it, existing operation-specific defaults are preserved.\n"
-                             "MCP client timeouts and input safety limits are configured separately.\n";
+                             "MCP client timeouts and input safety limits are configured separately.\n"
+							 "The program currently supports two languages: English and Russian.";
                 return 0;
             }
             if (argument == L"--timeout" || argument == L"--language")
