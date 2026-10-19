@@ -17,7 +17,7 @@ json foreground_information()
 }
 void request_control_permission(State &state, HANDLE job, Window const *window)
 {
-    // Ask once for session access (window=nullptr), or perform the legacy window handoff.
+    // Ask for session access (window=nullptr), or perform the legacy window handoff.
     const bool session = window == nullptr;
     if (!session)
         state.require_active();
@@ -100,7 +100,7 @@ void request_control_permission(State &state, HANDLE job, Window const *window)
     while (Clock::now() < deadline)
     {
         if (state.cancelled(generation))
-            throw Error("CANCELLED", "Foreground handoff cancelled", "focus");
+            throw Error("CANCELLED", "Permission request cancelled", session ? "consent" : "focus");
         if (!session)
             state.require_active();
         DWORD available{};
@@ -120,12 +120,17 @@ void request_control_permission(State &state, HANDLE job, Window const *window)
                 if (response.is_discarded() || !response.is_object())
                     throw Error("FOREGROUND_HELPER_FAILED", "Invalid foreground reply", "focus");
                 if (!response.value("granted", false))
-                    throw Error(session ? "CONSENT_DENIED" :
-                                (response.value("reason", "") == "timeout" ? "FOREGROUND_TIMEOUT" : "FOCUS_DENIED"),
-                                session ? "Desktop control was not authorized for this connection" :
-                                          "Foreground permission was declined or unavailable",
+                {
+                    const bool timed_out = response.value("reason", "") == "timeout";
+                    throw Error(session ? (timed_out ? "CONSENT_TIMEOUT" : "CONSENT_DENIED") :
+                                          (timed_out ? "FOREGROUND_TIMEOUT" : "FOCUS_DENIED"),
+                                timed_out ? "Permission request timed out" :
+                                (session ? "Desktop control permission was declined or unavailable" :
+                                           "Foreground permission was declined or unavailable"),
                                 session ? "consent" : "focus",
-                                HRESULT_FROM_WIN32(response.value("win32_error", DWORD(ERROR_ACCESS_DENIED))));
+                                HRESULT_FROM_WIN32(timed_out ? DWORD(ERROR_TIMEOUT) :
+                                                  response.value("win32_error", DWORD(ERROR_ACCESS_DENIED))));
+                }
                 if (state.cancelled(generation))
                     throw Error("CANCELLED", "Permission request cancelled", "consent");
                 if (!session)
@@ -142,15 +147,17 @@ void request_foreground_permission(State &state, HANDLE job, Window const &windo
     // Retain the legacy host API; state/job supervise the helper and window identifies the target.
     request_control_permission(state, job, &window);
 }
-void request_session_permission(State &state, HANDLE job)
+void request_session_permission(State &state, HANDLE job, bool retry_consent)
 {
-    // Ask at the first task in this MCP process; state stores consent and job supervises the helper.
+    // Re-prompt only on an explicit retry; success remains valid for this connection.
     {
         std::lock_guard lock(state.mutex);
         if (state.session_authorized)
             return;
-        if (state.session_consent_requested)
-            throw Error("CONSENT_DENIED", "This connection was not authorized; reconnect to request a new session", "consent");
+        if (state.session_consent_requested && !retry_consent)
+            throw Error("CONSENT_RETRY_REQUIRED",
+                        "Permission was not granted; call begin_task with retry_consent=true only after the user explicitly asks to retry",
+                        "consent");
         state.session_consent_requested = true;
     }
     const auto generation = state.cancellation.load();

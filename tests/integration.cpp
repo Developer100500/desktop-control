@@ -55,6 +55,8 @@ class Client
     unsigned consentCount = 0;
     bool consentHandled = false;
     bool acceptConsent = true;
+    bool respondConsent = true;
+    bool stopOnConsent = false;
 
   public:
     explicit Client(std::filesystem::path executable, std::string language = "", unsigned timeout = 0)
@@ -117,15 +119,27 @@ class Client
     {
         // Choose the test fixture's consent response; allow=true accepts, false declines.
         acceptConsent = allow;
+        respondConsent = true;
+    }
+    void ignore_consent()
+    {
+        // Let only this test server's dialog expire without a synthetic response.
+        respondConsent = false;
+    }
+    void stop_on_consent()
+    {
+        // Cancel the test request through MCP Stop when its own dialog opens.
+        respondConsent = false;
+        stopOnConsent = true;
     }
     unsigned consent_count() const
     {
-        // Return how many session dialogs this test client accepted; takes no parameters.
+        // Return how many session dialogs this test client observed; takes no parameters.
         return consentCount;
     }
     json read(unsigned timeout = 25000)
     {
-        // Read an MCP response; timeout bounds the wait and only this test server's initial consent is accepted.
+        // Read an MCP response; synthetic responses target only this test server's consent window.
         auto start = Clock::now();
         while (Clock::now() - start < std::chrono::milliseconds(timeout))
         {
@@ -143,8 +157,15 @@ class Client
             {
                 consentHandled = true;
                 ++consentCount;
-                SendMessageW(GetDlgItem(consent, acceptConsent ? 1 : 2), BM_CLICK, 0, 0);
-                record("session_consent_test", {{"count", consentCount}, {"source", "synthetic_fixture_confirmation"}});
+                if (respondConsent)
+                    SendMessageW(GetDlgItem(consent, acceptConsent ? 1 : 2), BM_CLICK, 0, 0);
+                if (stopOnConsent)
+                {
+                    stopOnConsent = false;
+                    send("tools/call", {{"name", "stop"}, {"arguments", json::object()}});
+                }
+                record("session_consent_test", {{"count", consentCount},
+                                               {"source", respondConsent ? "synthetic_fixture_confirmation" : "timeout_fixture"}});
             }
             DWORD available{};
             ensure(PeekNamedPipe(output.h, nullptr, 0, nullptr, &available, nullptr), "response pipe closed");
@@ -326,6 +347,7 @@ json coords(std::string window, json const &obs, json const &element)
 }
 #include "acceptance.hpp"
 #include "foreground.hpp"
+#include "consent.hpp"
 int wmain()
 {
     wchar_t path[32768]{};
@@ -388,6 +410,11 @@ int wmain()
         else if (config.value("scenario", "fixture") == "foreground")
         {
             foreground_test(c, directory, results);
+        }
+        else if (config.value("scenario", "fixture") == "consent")
+        {
+            c.tool("end_task");
+            consent_test(directory);
         }
         else if (config.value("scenario", "fixture") == "acceptance")
         {

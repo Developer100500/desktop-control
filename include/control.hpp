@@ -160,7 +160,7 @@ struct Window
 };
 json foreground_information();
 void request_foreground_permission(State &, HANDLE job, Window const &);
-void request_session_permission(State &, HANDLE job);
+void request_session_permission(State &, HANDLE job, bool retry_consent = false);
 class Desktop
 {
     State &state_;

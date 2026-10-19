@@ -9,7 +9,7 @@ Use the connected desktop-control MCP server to carry out the user's desktop tas
 
 ## Start and observe
 
-1. Call `begin_task` with a short, clear `title` describing the requested work. Keep its returned task identifier. The server must display its indicator before observing or acting.
+1. Call `begin_task` with a short, clear `title` describing the requested work. The first call opens a native permission dialog covering screenshots, UIA, mouse and keyboard until this MCP connection closes. Let the user approve it; never click the real permission dialog yourself. Keep the returned task identifier. The server must display its indicator before observing or acting.
 2. Find the target through `list_apps` or `list_windows`. Use returned `app_id` and `window_id`, never guessed handles. Launch an app only when needed for the user's task, using `launch_app` with a known absolute executable path or returned AUMID.
 3. Activate the chosen window with `activate_window` when needed. Read the result before continuing.
 4. Call `observe` for that window with `include_screenshot=true`; also set `include_text=true` when UI Automation elements will help. Inspect the actual image and metadata.
@@ -29,6 +29,8 @@ Use `press_key` for keys and shortcuts and `type_text` for Unicode text. Establi
 ## Stop, focus, and errors
 
 If the user presses Escape or Stop, or the task becomes paused, stop issuing actions. Call `resume` only after the user explicitly asks to continue. Physical user input is authoritative.
+
+If `begin_task` returns `CONSENT_TIMEOUT`, `CONSENT_DENIED`, `CANCELLED`, or `CONSENT_RETRY_REQUIRED`, control has not started. Do not automatically repeat the permission dialog. If the user explicitly asks to retry or continue after the unsuccessful request (for example, they missed the dialog), call `begin_task` with the task title and `retry_consent=true`. First verify that the connected tool schema supports this argument. It opens another native permission dialog in the same connection; the user must still approve it. Without a new explicit user request, leave control stopped. An authorized connection reuses its permission without another dialog.
 
 On `outcome=unknown`, do not automatically repeat the action: it may already have partly executed. Observe the application and determine the result first. On `delivered_observation_failed`, obtain a new observation without repeating the delivered input. On rejection, resolve the reported cause before retrying.
 

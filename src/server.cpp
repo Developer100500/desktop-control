@@ -117,8 +117,10 @@ json Server::tools()
     json coordinate = observed;
     coordinate["x"] = n;
     coordinate["y"] = n;
-    add("begin_task", "At the first task, ask once for control until this MCP connection closes; show indicators before capture or automation.",
-        {{"title", s}}, json::array({"title"}), false, false);
+    add("begin_task", "Request permission for this connection and show indicators before capture or automation. After an unsuccessful request, retry only when the user explicitly asks, using retry_consent=true.",
+        {{"title", s},
+         {"retry_consent", property("boolean", "Default false. Reopen the permission dialog after a failed request only on an explicit user request; never grants permission automatically.")}},
+        json::array({"title"}), false, false);
     add("end_task", "Finish the task and remove control indicators.", empty, json::array(), false, false);
     add("list_apps", "List installed packaged apps and discoverable Win32 apps.", empty, json::array(), true);
     add("list_windows", "List visible Win32 and UWP windows. Choose exactly one window_id.", empty,
@@ -280,7 +282,7 @@ json Server::invoke(std::string const &name, json const &args)
             state_.target_pid = 0;
             state_.target_created = 0;
         }
-        request_session_permission(state_, job_.value);
+        request_session_permission(state_, job_.value, args.value("retry_consent", false));
         indicator_.start();
         state_.set_phase("waiting_ai");
         return state_.status();

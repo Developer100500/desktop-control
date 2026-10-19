@@ -45,6 +45,9 @@ class Protocol(unittest.TestCase):
         self.assertFalse(diagnostic['isError'])
         self.assertFalse(diagnostic['structuredContent']['state']['active'])
         self.assertFalse(diagnostic['structuredContent']['state']['session_authorized'])
+        begin = next(t for t in tools if t['name'] == 'begin_task')
+        self.assertEqual(begin['inputSchema']['properties']['retry_consent']['type'], 'boolean')
+        self.assertEqual(begin['inputSchema']['required'], ['title'])
 
     def test_requires_task_before_observation(self):
         result = self.tool('observe', {'window_id':'untrusted'})
@@ -79,6 +82,7 @@ class Protocol(unittest.TestCase):
 
     def test_invalid_arguments_are_rejected(self):
         for name,args in [('begin_task',{}),('begin_task',{'title':12}),
+                          ('begin_task',{'title':'test','retry_consent':'true'}),
                           ('diagnostics',{'extra':True}),
                           ('report_agent_status',{'task_id':'x','phase':'invented'})]:
             result = self.tool(name,args)

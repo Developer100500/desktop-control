@@ -129,7 +129,7 @@ void foreground_test(Client &client, std::filesystem::path directory, std::files
     ensure(refused["error"]["code"] == "CONSENT_DENIED", "declined session rejects begin_task");
     deniedClient.set_consent_response(true);
     refused = data(deniedClient.raw_tool("begin_task", {{"title", "Do not prompt this connection again"}}));
-    ensure(refused["error"]["code"] == "CONSENT_DENIED", "declined consent is not requested again");
+    ensure(refused["error"]["code"] == "CONSENT_RETRY_REQUIRED", "declined consent requires explicit retry");
     ensure(deniedClient.consent_count() == 1, "exactly one prompt on declined connection");
     ensure(!data(deniedClient.tool("diagnostics"))["state"]["active"].get<bool>(), "declined connection cannot start control");
     record("session_permission_denial", {{"count", deniedClient.consent_count()}});
